@@ -4,6 +4,11 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav {
     position: absolute;
     height: 7vh;
@@ -19,7 +24,10 @@ body {
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: y mandatory;
+}
 
+.content {
+    padding: 10vh 5vh;
 }
 
 .section {
@@ -27,6 +35,7 @@ body {
     height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
+    font-size: 1.2rem;
 }
 
 .section:nth-child(1) {
@@ -39,4 +48,5 @@ body {
 
 .section:nth-child(3) {
     background-color: #123524;
+    color: white;
 }
