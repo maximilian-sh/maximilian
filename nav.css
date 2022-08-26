@@ -31,7 +31,7 @@ p {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: grey;
+    background-color: #1F2022;
 }
 
 .nav-menu {
@@ -47,7 +47,7 @@ p {
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: black;
 }
@@ -57,7 +57,7 @@ p {
 }
 
 .nav-logo {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: black;
     margin-left: 20px;
 }
