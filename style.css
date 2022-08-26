@@ -4,6 +4,14 @@ body {
     background-color: yellow;
 }
 
+.nav {
+    position: absolute;
+    height: 7vh;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -31,8 +39,4 @@ body {
 
 .section:nth-child(3) {
     background-color: #123524;
-}
-
-.section:nth-child(4) {
-    background-color: yellow;
 }
