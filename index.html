@@ -6,22 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./nav.css" />
     <title>Maximilian Kallina</title>
 </head>
 
 <body>
-    <nav class="nav">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </nav>
+    <header class="header" id="home">
+        <nav class="navbar">
+            <p class="nav-logo">Maximilian Kallina</p>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" onclick="openNav()" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
     <div class="container">
         <div class="section"></div>
         <div class="section"></div>
         <div class="section"></div>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
