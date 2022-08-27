@@ -5,19 +5,9 @@
 .frame {
   width: 500px;
   height: auto;
-  margin: 35% auto 0;
+  margin: 60vh auto 0;
   position: absolute;
   width: 100%;
-}
-
-@media only screen and (max-width: 800px) {
-  .frame {
-    margin-top: 60vh;
-  }
-
-  .clouds {
-    top: 80vh;
-  }
 }
 
 svg {
@@ -120,7 +110,7 @@ svg {
  */
 .clouds {
   position: absolute;
-  top: 20%;
+  top: 40vh;
   left: 0;
   right: 0;
   bottom: 0;
@@ -128,11 +118,12 @@ svg {
   transform: translateZ(0);
 }
 
+/**
 @media only screen and (max-width: 800px) {
   .clouds {
     top: 40vh;
   }
-}
+}**/
 
 
 .cloud {
