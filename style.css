@@ -39,11 +39,11 @@ a {
 }
 
 .section:nth-child(1) {
-    background-color: yellow;
+    background-color: #85b9dd;
 }
 
 .section:nth-child(2) {
-    background-color: #c465ff;
+    background-color: yellow;
 }
 
 .section:nth-child(3) {
