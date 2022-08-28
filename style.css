@@ -10,7 +10,7 @@ a {
 }
 
 .nav {
-    position: absolute;
+    position: fixed;
     height: 7vh;
     width: 100%;
     background-color: white;
@@ -24,6 +24,45 @@ a {
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: y mandatory;
+}
+
+.top {
+    position: absolute;
+    top: 92vh;
+    z-index: 1;
+}
+
+.top:hover {
+    animation: icon;
+    animation-duration: 0.8s;
+}
+
+@keyframes icon {
+    0% {
+        top: 92vh;
+        padding-bottom: 0px;
+    }
+
+    25% {
+        top: 87vh;
+        padding-bottom: 5vh;
+
+    }
+
+    50% {
+        top: 92vh;
+        padding-bottom: 0px;
+    }
+
+    75% {
+        top: 90vh;
+        padding-bottom: 2vh;
+    }
+
+    100% {
+        top: 92vh;
+        padding-bottom: 0px;
+    }
 }
 
 .content {
