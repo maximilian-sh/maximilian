@@ -23,7 +23,7 @@ svg {
 .plane-container {
   width: 200px;
   margin: 0px auto;
-  z-index: 101;
+  z-index: 99;
 }
 
 /*Paper Plane: Image*/

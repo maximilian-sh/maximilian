@@ -9,12 +9,20 @@ a {
     color: white;
 }
 
+.project {
+    color: black;
+}
+
+.project:hover {
+    color: white;
+}
+
 .nav {
-    position: fixed;
+    position: absolute;
     height: 7vh;
     width: 100%;
     background-color: white;
-    z-index: 1;
+    z-index: 100;
 }
 
 .container {
@@ -63,6 +71,58 @@ a {
         top: 92vh;
         padding-bottom: 0px;
     }
+}
+
+.honeycomb {
+    left: 60vw;
+    top: 10vh;
+}
+
+.honeycombT {
+    position: absolute;
+}
+
+.honeycombM {
+    position: absolute;
+    top: 5rem;
+    left: -2.5rem;
+}
+
+.honeycombB {
+    position: absolute;
+    top: 10rem;
+}
+
+@media screen and (max-width: 800px) {
+    .honeycombT {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        z-index: -1;
+    }
+
+    .honeycombM {
+        position: absolute;
+        top: 60vh;
+        left: 46vw;
+        z-index: -1;
+    }
+
+    .honeycombB {
+        position: absolute;
+        top: 70vh;
+        left: 50vw;
+        z-index: -1;
+    }
+}
+
+.hex {
+    color: black;
+    font-size: 5rem;
+}
+
+.hex:hover {
+    color: red;
 }
 
 .content {
