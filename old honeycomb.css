@@ -1,3 +1,18 @@
+/*<div class="honeycomb"><div class="honeycombT"><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+</span></div><div class="honeycombM"><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+</span></div><div class="honeycombB"><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+</span><span class="hex">&#x2B22;
+
+</span></div></div>
+*/
+
+
 body {
     margin: 0;
     padding: 0;
@@ -71,6 +86,57 @@ a {
         top: 92vh;
         padding-bottom: 0px;
     }
+}
+
+.honeycomb {
+    left: 60vw;
+    top: 10vh;
+}
+
+.honeycombT {
+    position: absolute;
+}
+
+.honeycombM {
+    position: absolute;
+    top: 5rem;
+    left: -2.5rem;
+}
+
+.honeycombB {
+    position: absolute;
+    top: 10rem;
+}
+
+@media screen and (max-width: 800px) {
+    .honeycombT {
+        width: 0;
+        height: 0;
+    }
+
+    .honeycombM {
+        width: 0;
+        height: 0;
+    }
+
+    .honeycombB {
+        width: 0;
+        height: 0;
+    }
+
+    .honeycomb {
+
+        visibility: hidden;
+    }
+}
+
+.hex {
+    color: black;
+    font-size: 5rem;
+}
+
+.hex:hover {
+    color: red;
 }
 
 .content {
