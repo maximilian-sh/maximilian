@@ -4,17 +4,19 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
-a {
+.under a {
     text-decoration: none;
-    color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 4px;
+    transition: background-size cubic-bezier(0, .5, 0, 1) 0.5s;
 }
 
-.project {
-    color: black;
-}
-
-.project:hover {
-    color: white;
+.under a:hover,
+.under a:focus {
+    text-decoration: none;
+    background-size: 100% 4px;
 }
 
 .nav {
@@ -32,6 +34,10 @@ a {
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: y mandatory;
+}
+
+.icon {
+    background-image: none;
 }
 
 .top {
@@ -85,20 +91,26 @@ a {
     font-size: 1.2rem;
 }
 
-.section:nth-child(1) {
+.section:nth-child(1),
+.section:nth-child(1) a {
     background-color: #85b9dd;
+    color: black;
 }
 
-.section:nth-child(2) {
+.section:nth-child(2),
+.section:nth-child(2) a {
     background-color: yellow;
+    color: black;
 }
 
-.section:nth-child(3) {
+.section:nth-child(3),
+.section:nth-child(3) a {
     background-color: #8A2BE2;
     color: white;
 }
 
-.section:nth-child(4) {
+.section:nth-child(4),
+.section:nth-child(4) a {
     background-color: #123524;
     color: white;
 }
