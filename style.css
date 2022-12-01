@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Space Mono', monospace;
     height: 100vh;
+    background-color: white;
 }
 
 .under a {
