@@ -93,7 +93,7 @@ body {
     gap: 4vmin;
     position: absolute;
     left: 30%;
-    top: 170%;
+    top: 250%;
     transform: translate(0%, -50%);
     user-select: none;
 }
