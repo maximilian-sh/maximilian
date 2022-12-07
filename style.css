@@ -3,6 +3,8 @@ body {
     padding: 0;
     font-family: 'Space Mono', monospace;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .under a {
@@ -33,7 +35,7 @@ body {
     width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
-    overflow: auto;
+    overflow-x: hidden;
     scroll-snap-type: y mandatory;
 }
 
@@ -85,11 +87,35 @@ body {
 }
 
 .section {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
     font-size: 1.2rem;
+}
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 30%;
+    top: 170%;
+    transform: translate(0%, -50%);
+    user-select: none;
+}
+
+#image-track>.image {
+    width: 40vmin;
+    height: 50vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+
+#image-track>.con {
+    width: 145px;
+    height: 50vmin;
+    object-fit: cover;
+    object-position: 100% center;
 }
 
 .section:nth-child(1),
