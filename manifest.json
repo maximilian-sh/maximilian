@@ -1,0 +1,13 @@
+{
+    "name": "maximilian kallina",
+    "start_url": "https://maximiliankallina.at",
+    "display": "standalone",
+    "theme_color": "transparent",
+    "icons": [
+        {
+            "src": "/code-solid.svg",
+            "sizes": "512x512",
+            "type": "image/svg"
+        }
+    ]
+}
