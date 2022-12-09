@@ -76,6 +76,11 @@ body {
     }
 }
 
+.chevron {
+    width: 2rem;
+    height: 2rem;
+}
+
 .content {
     padding: 3vh 5vh;
 }
