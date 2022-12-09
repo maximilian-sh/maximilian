@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+
+ <g>
+  <title>Layer 1</title>
+  <path fill="#ffffff" id="svg_1" d="m233.39999,105.4c12.5,-12.5 32.79999,-12.5 45.29999,0l192,191.99999c12.5,12.5 12.5,32.80002 0,45.30002s-32.79999,12.5 -45.29999,0l-169.39999,-169.40001l-169.4,169.3c-12.5,12.5 -32.8,12.5 -45.3,0s-12.5,-32.79999 0,-45.29999l192,-192.00001l0.09999,0.09999z"/>
+ </g>
+</svg>
