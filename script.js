@@ -1,14 +1,3 @@
-var viewportHeight = window.innerHeight;
-var windowHeight = window.outerHeight;
-var toolbarHeight = windowHeight - viewportHeight;
-
-var pageHeight = viewportHeight - toolbarHeight;
-//document.body.style.height = pageHeight + "px";
-
-console.log("v", viewportHeight)
-console.log("c", pageHeight)
-console.log("t", toolbarHeight)
-
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
