@@ -35,9 +35,9 @@ h6 {
 
 .container {
     position: absolute;
-    top: 6dvh;
+    top: 9dvh;
     width: 100vw;
-    height: 94dvh;
+    height: 91dvh;
     scroll-behavior: smooth;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
