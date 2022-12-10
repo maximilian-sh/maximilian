@@ -1,3 +1,16 @@
+// Get the height of the viewport
+var viewportHeight = window.innerHeight;
+
+// Check if the user is using Safari on iOS
+var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+if (isSafari) {
+    // Adjust the height of the viewport to exclude the vertical scrollbar
+    viewportHeight -= document.body.offsetHeight - document.body.clientHeight;
+}
+
+// Set the height of the body element to the height of the viewport
+document.body.style.height = viewportHeight + "px";
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
