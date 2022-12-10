@@ -2,7 +2,7 @@ var viewportHeight = window.innerHeight;
 var windowHeight = window.outerHeight;
 var toolbarHeight = windowHeight - viewportHeight;
 
-var pageHeight = windowHeight - toolbarHeight;
+var pageHeight = viewportHeight - toolbarHeight;
 document.body.style.height = pageHeight + "px";
 
 console.log("v", viewportHeight)
