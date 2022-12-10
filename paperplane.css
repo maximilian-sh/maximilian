@@ -3,9 +3,8 @@
 }
 
 .frame {
-  width: 500px;
   height: auto;
-  margin: 60vh auto 0;
+  margin: 60dvh auto 0;
   position: absolute;
   width: 100%;
 }
@@ -110,7 +109,7 @@ svg {
  */
 .clouds {
   position: absolute;
-  top: 40vh;
+  top: 40dvh;
   left: 0;
   right: 0;
   bottom: 0;
