@@ -18,7 +18,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6dvh;
+    height: 9dvh;
 }
 
 .hamburger {
@@ -123,6 +123,7 @@ p {
     }
 
     .navbar {
+        height: 6dvh;
         padding-top: 1.5dvh;
         padding-bottom: 1.5dvh;
     }
