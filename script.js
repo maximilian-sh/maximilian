@@ -12,6 +12,9 @@ if (isSafari) {
 var pageHeight = document.documentElement.clientHeight;
 document.body.style.height = pageHeight + "px";
 
+console.log("v", viewportHeight)
+console.log("c", pageHeight)
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
