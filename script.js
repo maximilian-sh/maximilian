@@ -9,7 +9,8 @@ if (isSafari) {
 }
 
 // Set the height of the body element to the height of the viewport
-document.body.style.height = viewportHeight + "px";
+var pageHeight = document.documentElement.clientHeight;
+document.body.style.height = pageHeight + "px";
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
