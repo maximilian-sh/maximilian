@@ -18,7 +18,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    height: 6dvh;
 }
 
 .hamburger {
@@ -109,7 +109,7 @@ p {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 7vh;
+        top: 7dvh;
         flex-direction: column;
         background-color: white;
         width: 100%;
@@ -123,8 +123,8 @@ p {
     }
 
     .navbar {
-        padding-top: 1.5vh;
-        padding-bottom: 1.5vh;
+        padding-top: 1.5dvh;
+        padding-bottom: 1.5dvh;
     }
 
     .nav-menu.active {

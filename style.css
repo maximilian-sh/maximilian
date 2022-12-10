@@ -10,6 +10,14 @@ body {
     background-color: white;
 }
 
+h1 {
+    margin-top: 0;
+}
+
+h6 {
+    font-weight: 500;
+}
+
 .under a {
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
@@ -29,7 +37,7 @@ body {
     position: absolute;
     top: 8dvh;
     width: 100vw;
-    height: 92dvh;
+    height: 94dvh;
     scroll-behavior: smooth;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
