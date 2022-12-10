@@ -27,9 +27,9 @@ body {
 
 .container {
     position: absolute;
-    top: 8vh;
+    top: 8dvh;
     width: 100vw;
-    height: 92vh;
+    height: 92dvh;
     scroll-behavior: smooth;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
@@ -41,7 +41,7 @@ body {
 
 .top {
     position: absolute;
-    top: 85vh;
+    top: 85dvh;
     z-index: 1;
 }
 
@@ -52,28 +52,28 @@ body {
 
 @keyframes icon {
     0% {
-        top: 85vh;
+        top: 85dvh;
         padding-bottom: 0px;
     }
 
     25% {
-        top: 82vh;
-        padding-bottom: 3vh;
+        top: 82dvh;
+        padding-bottom: 3dvh;
 
     }
 
     50% {
-        top: 85vh;
+        top: 85dvh;
         padding-bottom: 0px;
     }
 
     75% {
-        top: 84vh;
-        padding-bottom: 1vh;
+        top: 84dvh;
+        padding-bottom: 1dvh;
     }
 
     100% {
-        top: 85vh;
+        top: 85dvh;
         padding-bottom: 0px;
     }
 }
@@ -84,12 +84,12 @@ body {
 }
 
 .content {
-    padding: 3vh 5vh;
+    padding: 3dvh 5dvh;
 }
 
 .section {
     width: 100vw;
-    height: 93vh;
+    height: 93dvh;
     background-size: cover;
     scroll-snap-align: start;
     font-size: 1.2rem;
