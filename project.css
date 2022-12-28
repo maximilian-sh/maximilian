@@ -58,7 +58,7 @@
 }
 
 .imageP:hover~.text {
-    z-index: 0;
+    z-index: 2;
     pointer-events: none;
     background-color: transparent;
 }
@@ -79,7 +79,7 @@
         width: calc(30vw + 40px);
     }
 
-    .image-border:hover {
+    .imageP:hover~.image-border {
         height: calc(30vh + 10px);
         width: calc(30vw + 10px);
     }
