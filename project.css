@@ -55,7 +55,7 @@
 }
 
 .imageP:hover {
-    filter: blur(5px) brightness(200%);
+    filter: blur(5px) brightness(300%);
 }
 
 .imageP:hover~.text {
