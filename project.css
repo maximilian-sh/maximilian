@@ -4,6 +4,8 @@
     position: absolute;
     clip-path: inset(0px);
     z-index: 1;
+    object-fit: cover;
+    object-position: 100% center;
 }
 
 .container-pro {
