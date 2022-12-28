@@ -48,7 +48,7 @@ h6 {
 
 .imp {
     position: absolute;
-    top: 90dvh;
+    top: 92dvh;
     z-index: 1;
     float: right;
     right: 5dvh;
@@ -56,7 +56,7 @@ h6 {
 
 .top {
     position: absolute;
-    top: 90dvh;
+    top: 92dvh;
     z-index: 1;
 }
 
@@ -67,28 +67,28 @@ h6 {
 
 @keyframes icon {
     0% {
-        top: calc(90dvh);
+        top: calc(92dvh);
         padding-bottom: 0px;
     }
 
     25% {
-        top: calc(90dvh - 3dvh);
+        top: calc(92dvh - 3dvh);
         padding-bottom: 3dvh;
 
     }
 
     50% {
-        top: calc(90dvh);
+        top: calc(92dvh);
         padding-bottom: 0px;
     }
 
     75% {
-        top: calc(90dvh - 1dvh);
+        top: calc(92dvh - 1dvh);
         padding-bottom: 1dvh;
     }
 
     100% {
-        top: calc(90dvh);
+        top: calc(92dvh);
         padding-bottom: 0px;
     }
 }

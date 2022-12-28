@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    padding: 1dvh 5dvh;
+    font-family: 'Space Mono', monospace;
+    height: 100dvh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #8b6c5c;
+    color: white;
+}
+
+h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+.chevron {
+    width: 1.2rem;
+    height: 1.2rem;
+    transform: rotate(90deg);
+}
