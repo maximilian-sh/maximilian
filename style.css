@@ -103,30 +103,6 @@ h6 {
     font-size: 1.2rem;
 }
 
-#image-track {
-    display: flex;
-    gap: 4vmin;
-    position: absolute;
-    left: 30%;
-    top: 250%;
-    transform: translate(0%, -50%);
-    user-select: none;
-}
-
-#image-track>.image {
-    width: 40vmin;
-    height: 50vmin;
-    object-fit: cover;
-    object-position: 100% center;
-}
-
-#image-track>.con {
-    width: 145px;
-    height: 50vmin;
-    object-fit: cover;
-    object-position: 100% center;
-}
-
 .section:nth-child(1),
 .section:nth-child(1) a {
     background-color: #85b9dd;

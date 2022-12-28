@@ -43,9 +43,10 @@
 }
 
 .image-container .text {
-    z-index: -99;
+    z-index: -1;
     position: relative;
     text-align: center;
+    background: transparent;
 }
 
 .imageP:hover~.image-border {
