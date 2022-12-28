@@ -170,4 +170,21 @@ p {
         margin: 0px;
         padding-left: 1.5rem;
     }
+
+    .nav-logo {
+        width: auto;
+        margin-left: 0;
+    }
+
+    @keyframes linkIn {
+        from {}
+
+        to {}
+    }
+
+    @keyframes logo {
+        from {}
+
+        to {}
+    }
 }
