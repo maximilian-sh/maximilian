@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        @keyframes borderAnimation {
+            0% {
+                border-top-width: 0;
+            }
+
+            50% {
+                border-top-width: 1px;
+                border-right-width: 1px;
+                border-bottom-width: 0;
+                border-left-width: 0;
+            }
+
+            100% {
+                border-top-width: 0;
+                border-right-width: 0;
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+            }
+        }
+
+        img {
+            border: 1px solid #000;
+            animation: borderAnimation 2s linear forwards;
+            height: 300px;
+            width: 200px;
+        }
+    </style>
+
+    <img src="image.jpg" alt="My image">
+
+</body>
+
+</html>
