@@ -36,7 +36,7 @@ p {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #1F2022;
+    background-color: black;
 }
 
 .nav-menu {
@@ -44,7 +44,6 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-right: 2.5rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-item {
@@ -99,7 +98,7 @@ p {
 
     to {
         font-weight: 1000;
-        font-size: 1.48rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -107,7 +106,7 @@ p {
 .nav-logo {
     font-size: 1.4rem;
     color: black;
-    margin-left: 20px;
+    margin-left: 2.5rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -121,7 +120,7 @@ p {
         border-radius: 4dvh;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         margin: 0px;
         padding: 0;
         z-index: 99;
@@ -165,17 +164,5 @@ p {
     .nav-logo {
         margin: 0px;
         padding-left: 1.5rem;
-    }
-
-    @keyframes linkIn {
-        from {}
-
-        to {}
-    }
-
-    @keyframes logo {
-        from {}
-
-        to {}
     }
 }
