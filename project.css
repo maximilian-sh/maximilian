@@ -1,5 +1,5 @@
 .imageP {
-    height: 40vh;
+    height: 40dvh;
     width: 17vw;
     position: absolute;
     clip-path: inset(0px);
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(40vh + 40px);
+    height: calc(40dvh + 40px);
     width: calc(17vw + 40px);
 }
 
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(40vh + 40px);
+    height: calc(40dvh + 40px);
     width: calc(17vw + 40px);
     background:
         linear-gradient(to right, black 3px, transparent 3px) 0 100%,
@@ -46,10 +46,11 @@
     z-index: -1;
     position: relative;
     text-align: center;
+    width: 17vw;
 }
 
 .imageP:hover~.image-border {
-    height: calc(40vh + 10px);
+    height: calc(40dvh + 10px);
     width: calc(17vw + 10px);
 }
 
@@ -65,22 +66,26 @@
 
 @media (max-width: 800px) {
     .imageP {
-        height: 30vh;
+        height: 30dvh;
         width: 30vw;
     }
 
     .image-container {
-        height: calc(30vh + 40px);
+        height: calc(30dvh + 40px);
         width: calc(30vw + 40px);
     }
 
     .image-border {
-        height: calc(30vh + 40px);
+        height: calc(30dvh + 40px);
         width: calc(30vw + 40px);
     }
 
     .imageP:hover~.image-border {
-        height: calc(30vh + 10px);
+        height: calc(30dvh + 10px);
         width: calc(30vw + 10px);
+    }
+
+    .image-container .text {
+        width: 30vw;
     }
 }
