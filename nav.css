@@ -85,7 +85,19 @@ p {
     }
 }
 
-.nav-logo:hover {
+.nav-logo {
+    display: flex;
+    width: 25vw;
+    justify-content: center;
+    margin-left: 2.5rem;
+}
+
+.logo {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.logo:hover {
     animation: logo;
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
@@ -98,15 +110,8 @@ p {
 
     to {
         font-weight: 1000;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
-}
-
-
-.nav-logo {
-    font-size: 1.4rem;
-    color: black;
-    margin-left: 2.5rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -161,7 +166,7 @@ p {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-logo {
+    .logo {
         margin: 0px;
         padding-left: 1.5rem;
     }
