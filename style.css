@@ -34,10 +34,9 @@ h6 {
 }
 
 .container {
+    height: 100dvh;
     position: absolute;
-    top: 9dvh;
     width: 100vw;
-    height: 91dvh;
     scroll-behavior: smooth;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
@@ -47,9 +46,17 @@ h6 {
     background-image: none;
 }
 
+.imp {
+    position: absolute;
+    top: 90dvh;
+    z-index: 1;
+    float: right;
+    right: 5dvh;
+}
+
 .top {
     position: absolute;
-    top: 85dvh;
+    top: 90dvh;
     z-index: 1;
 }
 
@@ -60,28 +67,28 @@ h6 {
 
 @keyframes icon {
     0% {
-        top: 85dvh;
+        top: calc(90dvh);
         padding-bottom: 0px;
     }
 
     25% {
-        top: 82dvh;
+        top: calc(90dvh - 3dvh);
         padding-bottom: 3dvh;
 
     }
 
     50% {
-        top: 85dvh;
+        top: calc(90dvh);
         padding-bottom: 0px;
     }
 
     75% {
-        top: 84dvh;
+        top: calc(90dvh - 1dvh);
         padding-bottom: 1dvh;
     }
 
     100% {
-        top: 85dvh;
+        top: calc(90dvh);
         padding-bottom: 0px;
     }
 }
@@ -92,12 +99,12 @@ h6 {
 }
 
 .content {
-    padding: 3dvh 5dvh;
+    padding: 13dvh 5dvh;
 }
 
 .section {
     width: 100vw;
-    height: 91dvh;
+    height: 100dvh;
     background-size: cover;
     scroll-snap-align: start;
     font-size: 1.2rem;
