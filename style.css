@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
+::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
 body {
     margin: 0;
     padding: 0;
