@@ -1,5 +1,21 @@
+::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    margin: 0;
+}
+
 .imageP {
-    height: 40dvh;
+    height: 20dvh;
     width: 17vw;
     position: absolute;
     clip-path: inset(0px);
@@ -8,30 +24,12 @@
     object-position: center;
 }
 
-.container-pro {
-    height: 70dvh;
-    width: calc(100vw - 10dvh);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(40dvh + 40px);
-    width: calc(17vw + 40px);
-}
-
 .image-border {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(40dvh + 40px);
+    height: calc(20dvh + 40px);
     width: calc(17vw + 40px);
     background:
         linear-gradient(to right, black 3px, transparent 3px) 0 100%,
@@ -42,6 +40,30 @@
     background-size: 25px 25px;
 }
 
+.border {
+    padding: 10px;
+}
+
+.container-pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-web,
+.container-react {
+    overflow: scroll;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(20dvh + 40px);
+    width: calc(17vw + 40px);
+}
+
 .image-container .text {
     z-index: -1;
     position: relative;
@@ -50,7 +72,7 @@
 }
 
 .imageP:hover~.image-border {
-    height: calc(40dvh + 10px);
+    height: calc(20dvh + 10px);
     width: calc(17vw + 10px);
 }
 
@@ -67,22 +89,22 @@
 
 @media (max-width: 800px) {
     .imageP {
-        height: 26dvh;
+        height: 22dvh;
         width: 28vw;
     }
 
     .image-container {
-        height: calc(26dvh + 40px);
+        height: calc(22dvh + 40px);
         width: calc(28vw + 40px);
     }
 
     .image-border {
-        height: calc(26dvh + 40px);
+        height: calc(22dvh + 40px);
         width: calc(28vw + 40px);
     }
 
     .imageP:hover~.image-border {
-        height: calc(26dvh + 10px);
+        height: calc(22dvh + 10px);
         width: calc(28vw + 10px);
     }
 
