@@ -6,7 +6,15 @@ body {
     height: 100dvh;
     width: 100vw;
     overflow: hidden;
-    background-color: #8b6c5c;
+    background-color: blue;
+    background-image:
+        radial-gradient(at 10% 80%, hsla(238, 62%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 98% 25%, hsla(190, 78%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 13% 24%, hsla(183, 84%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 30% 12%, hsla(305, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 94% 67%, hsla(0, 63%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 1% 9%, hsla(249, 74%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 99% 3%, hsla(179, 91%, 67%, 1) 0px, transparent 50%);
     color: white;
 }
 

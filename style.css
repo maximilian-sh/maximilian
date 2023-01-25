@@ -19,7 +19,15 @@ body {
     height: 100dvh;
     width: 100vw;
     overflow: hidden;
-    background-color: white;
+    background-color: blue;
+    background-image:
+        radial-gradient(at 10% 80%, hsla(238, 62%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 98% 25%, hsla(190, 78%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 13% 24%, hsla(183, 84%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 30% 12%, hsla(305, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 94% 67%, hsla(0, 63%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 1% 9%, hsla(249, 74%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 99% 3%, hsla(179, 91%, 67%, 1) 0px, transparent 50%);
 }
 
 h1 {
@@ -28,7 +36,7 @@ h1 {
 
 h4 {
     font-weight: 100;
-    font-size: auto;
+    text-size-adjust: 100%;
 }
 
 .textMe {
@@ -135,24 +143,25 @@ h6 {
 
 .section:nth-child(1),
 .section:nth-child(1) a {
-    background-color: #85b9dd;
-    color: black;
+    color: white;
 }
 
 .section:nth-child(2),
 .section:nth-child(2) a {
-    background-color: yellow;
-    color: black;
+    color: white;
 }
 
 .section:nth-child(3),
 .section:nth-child(3) a {
-    background-color: #8A2BE2;
     color: white;
 }
 
 .section:nth-child(4),
 .section:nth-child(4) a {
-    background-color: #123524;
     color: white;
 }
+
+/*
+background-color: #123524;
+rgba(138, 43, 226, 1)
+*/
