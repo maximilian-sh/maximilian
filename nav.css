@@ -11,7 +11,8 @@ p {
 }
 
 .navbar {
-    background: white;
+    background: rgba(64, 64, 64, 0.4);
+    backdrop-filter: blur(5px);
     position: fixed;
     width: calc(100vw - 20px);
     z-index: 100;
@@ -87,6 +88,14 @@ p {
 
 .nav-logo {
     margin-left: 3vw;
+}
+
+.nav-logo>a {
+    color: white;
+}
+
+.nav-item>a {
+    color: white;
 }
 
 .logo {
