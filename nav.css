@@ -13,6 +13,7 @@ p {
 .navbar {
     background: rgba(64, 64, 64, 0.4);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     position: fixed;
     width: calc(100vw - 20px);
     z-index: 100;
@@ -128,6 +129,7 @@ p {
         flex-direction: column;
         background: rgba(64, 64, 64, 0.4);
         backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
         width: calc(100vw - 20px);
         border-radius: 4dvh;
         text-align: center;
