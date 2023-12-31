@@ -22,7 +22,8 @@ p {
     height: 8dvh;
     border-radius: 4dvh;
     top: 10px;
-    left: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
