@@ -148,10 +148,6 @@ p {
         width: 350px;
     }
 
-    .nav-menu.active {
-        left: 10px;
-    }
-
     .nav-item {
         margin: 1rem;
         width: auto;
