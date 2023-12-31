@@ -125,6 +125,7 @@ p {
 @media only screen and (max-width: 900px) {
     .nav-menu {
         position: fixed;
+        width: 350px;
         left: -100vw;
         top: calc(6dvh + 20px);
         flex-direction: column;
@@ -144,6 +145,7 @@ p {
         height: 4dvh;
         padding-top: 1.5dvh;
         padding-bottom: 1.5dvh;
+        width: 350px;
     }
 
     .nav-menu.active {
