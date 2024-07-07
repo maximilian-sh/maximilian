@@ -19,7 +19,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6dvh;
+    height: 6svh;
     border-radius: 4dvh;
     top: 10px;
     left: 50%;
@@ -88,14 +88,17 @@ p {
 }
 
 .nav-logo {
-    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
 }
 
-.nav-logo>a {
+.nav-logo > a {
     color: white;
 }
 
-.nav-item>a {
+.nav-item > a {
     color: white;
 }
 
@@ -122,12 +125,12 @@ p {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .nav-menu {
         position: fixed;
         width: 350px;
         left: -100vw;
-        top: calc(6dvh + 20px);
+        top: calc(6svh + 20px);
         flex-direction: column;
         background: rgba(64, 64, 64, 0.4);
         backdrop-filter: blur(5px);
@@ -142,9 +145,7 @@ p {
     }
 
     .navbar {
-        height: 4dvh;
-        padding-top: 1.5dvh;
-        padding-bottom: 1.5dvh;
+        height: 6svh;
         width: 350px;
     }
 
@@ -188,14 +189,18 @@ p {
     }
 
     @keyframes linkIn {
-        from {}
+        from {
+        }
 
-        to {}
+        to {
+        }
     }
 
     @keyframes logo {
-        from {}
+        from {
+        }
 
-        to {}
+        to {
+        }
     }
 }

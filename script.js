@@ -3,7 +3,7 @@ const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
 
 hamburger.addEventListener("click", mobileMenu);
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
@@ -15,10 +15,12 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
 
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-}
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+        });
+    });
+});
