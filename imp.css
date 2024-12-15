@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@font-face {
+    font-family: "Chillax";
+    src: url("/assets/fonts/Chillax-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 0;
-    font-family: "Space Mono", monospace;
+    font-family: "Chillax", sans-serif;
     height: 100dvh;
     overflow: hidden;
     background-color: blue;
