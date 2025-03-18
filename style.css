@@ -3,13 +3,7 @@
     src: url("/assets/fonts/Chillax-Medium.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face {
-    font-family: "Satoshi";
-    src: url("/assets/fonts/Satoshi-Bold.otf") format("opentype");
-    font-weight: bold;
-    font-style: normal;
+    font-display: swap;
 }
 
 ::-webkit-scrollbar {
@@ -43,7 +37,7 @@ body {
 
 h1 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -58,7 +52,11 @@ h4 {
 
 .projects {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin: 0;
 }
 
 .textMe {
@@ -204,7 +202,6 @@ rgba(138, 43, 226, 1)
     margin: 0;
     height: fit-content;
     width: 100%;
-    margin-top: 1rem;
 }
 
 .experience-card {
@@ -228,6 +225,12 @@ rgba(138, 43, 226, 1)
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 10px;
+}
+
+.experience-header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .experience-header h3 {
@@ -300,6 +303,10 @@ rgba(138, 43, 226, 1)
         margin-bottom: 8px;
     }
 
+    .experience-header h2 {
+        font-size: 1.2rem;
+    }
+
     .experience-header h3 {
         font-size: 1.2rem;
     }
@@ -347,3 +354,10 @@ rgba(138, 43, 226, 1)
         margin-top: 0.8rem;
     }
 }
+
+.private-project {
+    color: rgba(255, 255, 255, 0.6);
+    cursor: default;
+}
+
+/* Media queries for responsive design */
