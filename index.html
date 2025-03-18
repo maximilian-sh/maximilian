@@ -39,6 +39,7 @@
             </div>
             <ul class="nav-menu desktop-menu">
                 <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">experience</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
             </ul>
@@ -51,6 +52,7 @@
 
         <ul class="nav-menu mobile-menu">
             <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">experience</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
         </ul>
@@ -59,7 +61,7 @@
             <div class="section" id="home">
                 <div class="frame">
                     <div class="plane-container">
-                        <a href="https://github.com/maximilian-sh" alt="link to github" target="_blank">
+                        <a href="https://github.com/maximilian-sh" target="_blank" aria-label="Visit my GitHub profile">
                             <svg
                                 version="1.1"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -72,6 +74,8 @@
                                 enable-background="new 0 0 1131.53 379.304"
                                 xml:space="preserve"
                                 class="plane"
+                                role="img"
+                                aria-label="Paper plane animation linking to GitHub"
                             >
                                 <polygon
                                     fill="#D8D8D8"
@@ -200,35 +204,89 @@
             <div class="section under" id="projects">
                 <div class="content">
                     <h1>what i do</h1>
-                    <h3>apps</h3>
+                    <h2>apps</h2>
                     <div class="projects">
-                        <a href="https://gustus.maximilian.sh" target="_blank">gustus (react)</a><br />
-                        <a href="https://forstrechner.maximilian.sh" target="_blank">forstrechner (swift)</a><br />
-                        <a style="pointer-events: none" target="_blank">countdown app (swift)</a><br />
-                        <a style="pointer-events: none" target="_blank">work roster app (swift)</a><br />
-                        <a class="text" href="https://finkzeit.at" target="_blank">time registration app (react)</a><br />
-                        <a style="pointer-events: none" target="_blank">and also some more</a><br />
+                        <a href="https://gustus.maximilian.sh" target="_blank" aria-label="Visit Gustus React App">gustus (react)</a><br />
+                        <a href="https://forstrechner.maximilian.sh" target="_blank" aria-label="Visit Forstrechner Swift App"
+                            >forstrechner (swift)</a
+                        ><br />
+                        <a style="pointer-events: none" aria-label="Countdown App (Coming Soon)">countdown app (swift)</a><br />
+                        <a style="pointer-events: none" aria-label="Work Roster App (Coming Soon)">work roster app (swift)</a><br />
+                        <a class="text" href="https://finkzeit.at" target="_blank" aria-label="Visit Time Registration App"
+                            >time registration app (react)</a
+                        ><br />
+                        <a style="pointer-events: none" aria-label="More Projects Coming Soon">and also some more</a><br />
                     </div>
 
-                    <h3>web</h3>
+                    <h2>web</h2>
                     <div class="projects">
-                        <a href="https://escrank.eu" target="_blank">esc elo ranking</a><br />
-                        <a href="https://alamelissa.at" target="_blank">à la melissa</a><br />
-                        <a href="https://github.com/maximilian-sh/maximilian" target="_blank">this website</a><br />
-                        <a style="pointer-events: none" target="_blank">and many more</a><br />
+                        <a href="https://escrank.eu" target="_blank" aria-label="Visit ESC Elo Ranking Website">esc elo ranking</a><br />
+                        <a href="https://alamelissa.at" target="_blank" aria-label="Visit À la Melissa Website">à la melissa</a><br />
+                        <a href="https://github.com/maximilian-sh/maximilian" target="_blank" aria-label="View Source Code of This Website"
+                            >this website</a
+                        ><br />
+                        <a style="pointer-events: none" aria-label="More Web Projects Coming Soon">and many more</a><br />
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="experience">
+                <div class="content">
+                    <h1>experience</h1>
+                    <div class="experience-grid">
+                        <div class="experience-card education">
+                            <div class="experience-header">
+                                <h3>Computer Science</h3>
+                                <div class="experience-date">since 10/2024</div>
+                            </div>
+                            <div class="experience-company">Technische Universität Wien</div>
+                            <div class="experience-details">
+                                <div class="tags">
+                                    <span class="tag">Bachelor's Program</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Development Intern</h3>
+                                <div class="experience-date">06/2024 - 08/2024</div>
+                            </div>
+                            <div class="experience-company">Fink Zeitsysteme · Internship</div>
+                            <div class="experience-details">
+                                <div class="tags">
+                                    <span class="tag">Node.js</span>
+                                    <span class="tag">Web</span>
+                                    <span class="tag">NFC</span>
+                                    <span class="tag">REST APIs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Web Developer</h3>
+                                <div class="experience-date">07/2022 - 08/2022</div>
+                            </div>
+                            <div class="experience-company">Fink Zeitsysteme · Internship</div>
+                            <div class="experience-details">
+                                <div class="tags">
+                                    <span class="tag">React Native</span>
+                                    <span class="tag">Mobile</span>
+                                    <span class="tag">UI/UX</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="section" id="about">
                 <div class="content">
                     <h1>about me</h1>
-                    <h4 class="textMe">
+                    <p class="textMe">
                         i am a freetime web developer (🧢) from austria, specializing in modern and dynamic websites. in my free time, i
                         enjoy bringing my visions to life through code and staying up-to-date with the latest web technology. i have a
                         passion for problem-solving and a commitment to delivering the best possible results for each project i work on. i
                         am always looking for new challenges and opportunities to grow as a developer.
-                    </h4>
-                    <h6>written by chatGPT</h6>
+                    </p>
+                    <p class="chatgpt">written by chatGPT (before it was cool)</p>
                 </div>
             </div>
             <div class="section" id="contact">
