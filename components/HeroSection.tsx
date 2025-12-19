@@ -14,7 +14,7 @@ export default function HeroSection() {
           className="mb-4 text-5xl font-bold tracking-tight text-stone-800 md:text-7xl justify-center"
         />
         <BlurText
-          text="Developer from Austria crafting apps & web experiences"
+          text="Just doing stuff."
           delay={50}
           animateBy="words"
           direction="top"
